@@ -1,0 +1,383 @@
+@media (max-width: 750px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .main {
+        background-image: url(../images/shao-5.png);
+
+    }
+
+    .bigdiv {
+        width: 20%;
+    }
+
+    .megalinks {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .kaarten {
+        flex-direction: column;
+        width: 80%;
+
+    }
+
+    :hover.kaart {
+        transform: none;
+    }
+
+    .kaart{
+        transform: none;
+    }
+
+    #email {
+        width: 100%;
+    }
+
+    .lijn2 {
+        flex-direction: column;
+    }
+
+    .lijn3 {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+   
+    .moet {
+        flex-direction: column;
+    }
+
+
+
+
+}
+
+@media (max-width: 880px) {
+
+    .formulier {
+        width: 80%;
+    }
+
+    .lijn1 {
+        flex-direction: column;
+    }
+
+    .formlijn {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+
+a:link {
+    color: #df5809;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #df5809;
+}
+
+a:hover {
+    color: rgb(9, 152, 247);
+
+}
+
+
+button {
+    background-color: #081fa2;
+    border-radius: 20px;
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background-color: #d0d4dd;
+    font-family: 'Cinzel', serif;
+
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    display: flex;
+    border-bottom: 2px solid black;
+    padding: 1vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0e1a2d;
+
+
+}
+
+.bigdiv {
+    display: flex;
+    object-fit: contain;
+    width: 10%;
+
+}
+
+.logo {
+    border-radius: 400px;
+    width: 100%;
+
+
+}
+
+
+.megalinks {
+    display: flex;
+    gap: 1vw;
+}
+
+.navlink {
+    background-color: #2652a5;
+    border: solid 4px #df5809;
+    border-radius: 20px;
+}
+
+
+.main {
+    display: flex;
+    padding: 10vw;
+    flex-direction: column;
+    align-items: center;
+    color: #df5809;
+   
+
+    background-image: url(../images/shao-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
+.headtext {
+    text-align: center;
+    width: 80;
+    background-color: white;
+    color: black;
+    opacity: 70%;
+    border-radius: 20px;
+
+
+}
+
+p {
+    opacity: 100%;
+}
+
+.linkies {
+    display: flex;
+    padding: 5px;
+    gap: 1vw;
+
+}
+
+.minilink {
+    padding: 6px;
+    font-family: 'Cinzel', serif;
+
+
+}
+
+.sub {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3vw;
+
+}
+
+.kaarten {
+    display: flex;
+    padding: 3vw;
+    gap: 5vw;
+    margin: 2vw;
+    perspective: 400px;
+}
+
+.kaart {
+    width: 100%;
+    padding: 1vw;
+    border: solid 3px darkgrey;
+    border-radius: 20px;
+
+
+}
+
+:hover.kaart {
+
+    transform: rotateY(10deg);
+    transition: ease-in;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+.container {
+    display: flex;
+
+}
+
+.container img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.knop {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+
+}
+
+.knop button {
+    width: 30%;
+}
+
+
+.fantekst {
+    text-align: center;
+}
+
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5vw;
+}
+
+
+.formulier {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10vw;
+    width: 80%;
+
+
+
+}
+
+.lijn1 {
+    display: flex;
+    flex: 1;
+    width: 100%;
+
+}
+
+.formlijn1 {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 1vw;
+
+    flex-direction: column;
+}
+
+.formlijn2 {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 1vw;
+
+    flex-direction: column;
+}
+
+.formlijn3 {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 1vw;
+
+    flex-direction: column;
+}
+.lijn2 {
+    display: flex;
+}
+
+.lijn3 {
+    display: flex;
+}
+
+.formlijn {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 1vw;
+    font-family: 'Cinzel', serif;
+
+}
+
+
+
+input {
+    font-family: 'Cinzel', serif;
+}
+
+.keuze {
+    font-family: 'Cinzel', serif;
+}
+
+.formtext {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    font-family: 'Cinzel', serif;
+}
+
+.formradio {
+    padding: 1vw;
+}
+
+.formcheck {
+    padding: 1vw;
+    font-family: 'Cinzel', serif;
+}
+
+.formknop {
+    font-family: 'Cinzel', serif;
+    color: #df5809;
+}
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    color: gray;
+}
+
+
+.moet {
+    display: flex;
+    
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    object-fit: contain;
+    flex: 1;
+    gap: 4%;
+}
+
+.media {
+    object-fit: contain;
+    width: 100%;
+}
